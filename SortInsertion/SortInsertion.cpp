@@ -57,3 +57,22 @@ void insertionsort() {							//Procedure Insertionsort
 
 	}
 }
+
+void display() {								//procedure display
+	cout << endl;								// Output baris kosong
+	cout << "===============================" << endl;		// Output ke layar
+	cout << "Elemen Array yang telah tersusun" << endl;		// Output ke layar
+	cout << "===============================" << endl;		// Output ke layar
+
+	for (int j = 0; j < n; j++) {				// Looping dengan j dimulai dari 0 hingga n-1
+		cout << arr[j] << endl;								// Output ke layar
+	}
+	cout << endl;											// Output baris kosong
+}
+
+int maint() 
+{
+	input();					//memanggil input
+	insertionsort();			//memanggil insertionsort
+	display();					//memanggil display
+}
