@@ -70,7 +70,7 @@ void display() {								//procedure display
 	cout << endl;											// Output baris kosong
 }
 
-int maint() 
+int main() 
 {
 	input();					//memanggil input
 	insertionsort();			//memanggil insertionsort
